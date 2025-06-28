@@ -1,5 +1,5 @@
-streamlit
-numpy
-Pillow
-mediapipe
-tensorflow
+streamlit==1.22.0
+numpy==1.22.4
+Pillow==9.5.0
+mediapipe==0.10.0
+tensorflow==2.12.0
