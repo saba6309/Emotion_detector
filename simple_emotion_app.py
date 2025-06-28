@@ -123,7 +123,7 @@ def main():
 
                     draw.rectangle([(x_min, y_min), (x_max, y_max)], outline="green", width=3)
 
-                    label = f"{emoji} {emotion} ({confidence:.1f}%)"
+                    label = f"{emotion} ({confidence:.1f}%)"    
                     text_size = font.getbbox(label)[2:4]
                     text_bg = (x_min, y_min - text_size[1] - 4, x_min + text_size[0] + 4, y_min)
                     draw.rectangle(text_bg, fill="green")
